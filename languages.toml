@@ -1,0 +1,4 @@
+[[language]]
+name = "json"
+scope = "source.json"
+indent = { tab-width = 4, unit = "  " }

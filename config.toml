@@ -1,0 +1,11 @@
+theme = "snazzy"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
