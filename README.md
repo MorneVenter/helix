@@ -1,4 +1,4 @@
-# helix-config
+# Helix Config
 My Helix editor configuration files.
 
 # How To Install
