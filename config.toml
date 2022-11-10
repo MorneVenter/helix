@@ -9,3 +9,10 @@ left = ["mode", "spinner"]
 center = ["file-name"]
 right = ["diagnostics", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.file-picker]
+hidden = true
