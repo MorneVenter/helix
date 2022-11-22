@@ -1,8 +1,7 @@
-theme = "snazzy"
+theme = "fleetish"
 
 [editor.indent-guides]
 render = true
-character = "╎"
 
 [editor.statusline]
 left = ["mode", "spinner"]
@@ -16,3 +15,6 @@ normal = "block"
 
 [editor.file-picker]
 hidden = true
+
+[editor]
+color-modes = true
