@@ -1,7 +1,11 @@
 [[language]]
 name = "json"
 scope = "source.json"
-indent = { tab-width = 4, unit = "  " }
+indent = { tab-width = 2, unit = " " }
+
+[[language]]
+name = "yaml"
+file-types = ["yaml", "yml"]
 
 [[language]]
 name = "html"
@@ -35,3 +39,7 @@ auto-format = true
 name = "tsx"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+
+[[language]]
+name = "c-sharp"
+language-server = { command = "dotnet", args = [ "/home/morne/.omnisharp/OmniSharp.dll", "--languageserver" ] }
